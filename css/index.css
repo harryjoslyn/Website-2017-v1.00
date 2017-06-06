@@ -1,0 +1,46 @@
+body, html {
+    height: 100%;
+	font-family:"Courier New", Courier, monospace;
+	color:#FFFFFF;
+}
+
+.parallax {
+    /* The image used */
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+.bg1{
+	background-image: url('../images/main_img_1.jpg');
+	height:100%;
+}
+.bg2{
+	background-image: url('../images/main_img_2.jpg');
+	height:50%;
+	background-position:center;
+}
+.bg3{
+	background-image: url('../images/main_img_3.jpg');
+	height:50%;
+	background-position:center;
+}
+
+.section{
+background-color:#2A5CE7;
+padding-top:2%;
+padding-bottom:2%;
+}
